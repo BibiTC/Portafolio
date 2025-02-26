@@ -20,6 +20,8 @@ Explora el uso de las etiquetas `meta` en el encabezado de tu HTML. Cambia la et
 
 Ahora que ya tienes una base sólida sobre la estructura HTML, vamos a agregar y formatear elementos en tu página de portafolio. Sigue el diseño de Figma y comienza agregando un título (`<h1>`) con un resalte (`<strong>`) en una parte de él. Luego, inserta un párrafo (`<p>`) con una breve introducción sobre ti o tu empresa. Finalmente, agrega enlaces (`<a>`) a tus redes sociales o portafolios en línea, como Instagram y GitHub. Asegúrate de que cada elemento esté correctamente formateado y colocado según el diseño de Figma.
 
+![alt text](image-1.png)
+
 ## Incorporando imágenes con etiquetas HTML
 
 ¡Ha llegado el momento de dar un toque visual a tu página! Elige una imagen que te represente a ti o tu trabajo y agrégala a tu página de portafolio utilizando la etiqueta `<img>`. Recuerda incluir la propiedad `src` con la ruta de la imagen y `alt` con una descripción adecuada de la imagen. Esto no solo mejora la accesibilidad de tu sitio, sino que también ayuda a los motores de búsqueda a entender el contenido de la imagen.
