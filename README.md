@@ -14,6 +14,8 @@ Ahora que entiendes la importancia de las etiquetas semánticas en HTML, es hora
 
 Explora el uso de las etiquetas `meta` en el encabezado de tu HTML. Cambia la etiqueta `lang` a "es", ajusta el `charset` a "UTF-8", agrega la etiqueta `meta` para la compatibilidad con Edge y otra para la configuración del `viewport`. Finalmente, cambia el título de tu página a algo relacionado con tu proyecto, por ejemplo, "Portafolio de [Tu Nombre]". Entiende cómo cada uno de estos cambios afecta la funcionalidad y accesibilidad de tu sitio.
 
+![alt text]({1972377C-0CEA-457D-81A6-1B8BF8275078}.png)
+
 ## Insertando y formateando elementos en HTML
 
 Ahora que ya tienes una base sólida sobre la estructura HTML, vamos a agregar y formatear elementos en tu página de portafolio. Sigue el diseño de Figma y comienza agregando un título (`<h1>`) con un resalte (`<strong>`) en una parte de él. Luego, inserta un párrafo (`<p>`) con una breve introducción sobre ti o tu empresa. Finalmente, agrega enlaces (`<a>`) a tus redes sociales o portafolios en línea, como Instagram y GitHub. Asegúrate de que cada elemento esté correctamente formateado y colocado según el diseño de Figma.
