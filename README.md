@@ -2,9 +2,13 @@
 
 Acabas de recibir un diseño de página de portafolio de tu diseñadora. El desafío es transformar ese diseño en una página web funcional. Utilizando HTML, crea la estructura básica de la página. Recuerda incluir los elementos principales: un título principal, un subtítulo, dos botones (Instagram y Github), y un espacio para la imagen de la desarrolladora. Siéntete libre de personalizar el texto y la imagen para adaptarlos a tu portafolio personal.
 
+![alt text](image.png)
+
 ## Estructurando la página con etiquetas semánticas
 
 Ahora que entiendes la importancia de las etiquetas semánticas en HTML, es hora de aplicar ese conocimiento. Utiliza las etiquetas `header`, `main` y `footer` para estructurar tu página de portafolio. En el `header`, inserta un menú o un logotipo. En el `main`, agrega los elementos del portafolio como título, párrafo, botones e imagen. Por último, en el `footer`, coloca información como contacto o derechos de autor. Recuerda que cada elemento debe colocarse de manera lógica y estructurada para crear un sitio accesible y bien organizado.
+
+![alt text]({A43517B7-154F-4D6C-8ABA-F6E422EDB2E6}-1.png)
 
 ## Entendiendo y aplicando las etiquetas meta
 
