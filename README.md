@@ -24,4 +24,6 @@ Ahora que ya tienes una base sólida sobre la estructura HTML, vamos a agregar y
 
 ## Incorporando imágenes con etiquetas HTML
 
-¡Ha llegado el momento de dar un toque visual a tu página! Elige una imagen que te represente a ti o tu trabajo y agrégala a tu página de portafolio utilizando la etiqueta `<img>`. Recuerda incluir la propiedad `src` con la ruta de la imagen y `alt` con una descripción adecuada de la imagen. Esto no solo mejora la accesibilidad de tu sitio, sino que también ayuda a los motores de búsqueda a entender el contenido de la imagen.
+¡Ha llegado el momento de dar un toque visual a tu página! Elige una imagen que te represente a ti o tu trabajo y agrégala a tu página de portafolio utilizando la etiqueta `<img>`. Recuerda incluir la propiedad `src` con la ruta de la imagen y `alt` con una descripción adecuada de la imagen. Esto no solo mejora la accesibilidad de tu sitio, sino que también ayuda a los motores de búsqueda a entender el contenido de la imagen. 
+
+##Realizado en el punto 1.
