@@ -46,6 +46,8 @@ En el archivo CSS, define el color de fondo del cuerpo de la página (`<body>`) 
 
 Te han desafiado a dar vida a una página web que actualmente solo tiene HTML. Tu tarea es utilizar CSS para agregar colores y formatos a los elementos de la página, inspirándote en un diseño específico proporcionado en Figma. Concéntrate en seleccionar colores adecuados para fondos, textos y bordes, además de aplicar estilos a botones y encabezados para hacerlos visualmente atractivos. Puedes usar como referencia esta [tabla de nombres de colores](https://www.w3schools.com/colors/colors_names.asp).
 
+![alt text]({8253900B-D00F-4951-B508-3C2FAC95E819}.png)
+
 ### 2.4 Personalizando la página con CSS
 
 Imagina que estás trabajando en un proyecto web y ha llegado el momento de darle vida a tu página con colores, formas y estilos. Tu tarea es crear un archivo CSS para estilizar una página HTML simple, que contiene un encabezado, un párrafo y un pie de página. Utiliza tu conocimiento para definir los colores del texto y del fondo.
