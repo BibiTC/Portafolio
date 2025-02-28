@@ -3,11 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const themeSelector = document.getElementById("theme-selector");
     const themeStyle = document.getElementById("theme-style");
 
-    console.log("DOM fully loaded and parsed");
-    console.log(themeSelector);
-    console.log(themeStyle);
-
-    // Verifica si hay un tema guardado en localStorage y aplícalo
+       // Verifica si hay un tema guardado en localStorage y aplícalo
     const savedTheme = localStorage.getItem("selectedTheme");
     if (savedTheme) {
         themeStyle.setAttribute("href", savedTheme);

@@ -144,8 +144,15 @@ Editar
 
 ----------
 
+![alt text]({63F4C442-6DA4-4520-9BC3-B6A79035BB7C}.png)
 
+![alt text]({519961E7-1580-435E-9B92-C1A5EE900CB3}.png)
+
+![alt text]({90FAECDE-580D-48EA-A175-BEAC05B00F15}.png)
+
+![alt text]({3D286337-2D99-473A-9FB7-838B4ED48A8D}.png)
 
 ### 2.6 Personalizando enlaces
 
 La última tarea es estilizar los enlaces en la página. Deberás modificar la apariencia de los enlaces para que se destaquen del fondo y del texto. Utiliza propiedades CSS, como `color`, para personalizarlos, siguiendo las directrices del diseño proporcionado en Figma.
+

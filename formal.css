@@ -162,7 +162,7 @@ img {
 
 .index-contacto nav ul li a {
     text-decoration: none;
-    color: #00c3ff; /* Color llamativo */
+    color: white; /* Color llamativo */
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 6px;
@@ -170,7 +170,7 @@ img {
 }
 
 .index-contacto nav ul li a:hover {
-    background-color: #009dcf; /* Color al pasar el mouse */
+    background-color: brown; /* Color al pasar el mouse */
     color: white;
 }
 
@@ -184,7 +184,7 @@ img {
 .contacto-email a {
     display: inline-block; /* Permite que el enlace respete el centrado */
     background: none; /* Elimina el fondo azul */
-    color: #00c3ff; /* Mantiene el color llamativo */
+    color: rgba(255, 255, 0, 0.384) ; /* Mantiene el color llamativo */
     font-weight: bold;
     text-decoration: underline; /* Agrega subrayado */
     padding: 0; /* Quita el padding del botón */
@@ -193,5 +193,5 @@ img {
 }
 
 .contacto-email a:hover {
-    color: #009dcf; /* Cambio de color al pasar el mouse */
+    color: hsla(0, 23%, 25%, 0.885) /* Cambio de color al pasar el mouse */
 }
