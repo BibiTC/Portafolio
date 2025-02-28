@@ -94,6 +94,56 @@ Ahora, vayamos un poco más allá. Necesitas crear tres archivos CSS diferentes,
 - Otro con un estilo **colorido y divertido**.
 - Un tercero con un aspecto **minimalista y limpio**.
 
+---------
+📌 Pasos a seguir
+Mantener el style.css actual como un archivo base o predeterminado.
+Agregar los tres archivos CSS:
+formal.css
+colorido.css
+minimalista.css
+Modificar el HTML para permitir el cambio de estilos.
+🔥 Modificaciones en el HTML
+En el <head>, cambia la forma en que se carga el CSS, agregando un id="theme-style" al <link> para que podamos cambiarlo con JavaScript:
+
+html
+Copiar
+Editar
+<!-- CSS (con ID para cambiar dinámicamente) -->
+<link id="theme-style" rel="stylesheet" href="style.css">
+🔥 Agregar un selector de estilos en el <body>
+Antes de </header>, agrega un <select> para elegir el estilo:
+
+html
+Copiar
+Editar
+<label for="theme-selector">Selecciona un estilo:</label>
+<select id="theme-selector">
+    <option value="style.css">Predeterminado</option>
+    <option value="formal.css">Formal y Elegante</option>
+    <option value="colorido.css">Colorido y Divertido</option>
+    <option value="minimalista.css">Minimalista y Limpio</option>
+</select>
+🔥 Agregar JavaScript para cambiar el estilo dinámicamente
+Antes de </body>, coloca este <script> para cambiar la hoja de estilos según la opción seleccionada:
+
+html
+Copiar
+Editar
+<script>
+    document.getElementById("theme-selector").addEventListener("change", function () {
+        document.getElementById("theme-style").setAttribute("href", this.value);
+    });
+</script>
+🎯 Explicación
+✅ El usuario puede seleccionar un tema del <select>.
+✅ JavaScript cambia el atributo href del <link id="theme-style"> para cargar el CSS correspondiente.
+✅ Esto permite cambiar el diseño sin modificar el HTML.
+
+🔹 Con esto, tu página se verá diferente dependiendo del archivo CSS seleccionado. ¿Quieres agregar una opción para recordar el estilo seleccionado con localStorage?
+
+
+----------
+
 
 
 ### 2.6 Personalizando enlaces

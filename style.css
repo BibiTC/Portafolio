@@ -3,20 +3,14 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    /*Flexbox Centra todo el contenido.*/
-    flex-direction: column;
-    /* Asegura que los elementos estén en columna */
+    display: flex;    /*Flexbox Centra todo el contenido.*/
+    flex-direction: column;    /* Asegura que los elementos estén en columna */
 
-    justify-content: center;
-    /*Centra horizontalmente. */
-    align-items: center;
-    /*Alinea verticalmente al centro.*/
-    height: 100vh;
-    /*Hace que el body ocupe toda la pantalla*/
+    justify-content: center;    /*Centra horizontalmente. */
+    align-items: center;    /*Alinea verticalmente al centro.*/
+    height: 100vh;    /*Hace que el body ocupe toda la pantalla*/
     margin: 0;
-    gap: 20px;
-    /* Espaciado entre header, main y footer */
+    gap: 20px;    /* Espaciado entre header, main y footer */
 }
 
 .header-container {
@@ -130,8 +124,7 @@ img {
     }
 
     a {
-        width: 80%;
-        /* Para que los botones ocupen el ancho en móviles */
+        width: 80%;        /* Para que los botones ocupen el ancho en móviles */
         text-align: center;
     }
 }
@@ -139,8 +132,7 @@ img {
 .footer-container {
     text-align: center;
     padding: 20px;
-    background-color: #111;
-    /* Un tono más oscuro para destacar */
+    background-color: #111;    /* Un tono más oscuro para destacar */
 }
 
 .index-contacto {
@@ -162,8 +154,7 @@ img {
 }
 
 .index-contacto nav ul li {
-    display: inline-block;
-    /* Asegura que los elementos estén en línea */
+    display: inline-block;    /* Asegura que los elementos estén en línea */
 }
 
 .index-contacto nav ul li a {
