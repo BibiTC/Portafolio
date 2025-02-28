@@ -6,38 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Pages con IA</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <!--Fuente de Letra Krona One para h1-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fuente de Letra Krona One para p-->
 </head>
 
 <body>
     <header>
-        <h1>
-            Potencializa tu negocio digital con Landing Pages generadas 
-            con <strong>Inteligencia Artificial</strong>
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-   </header>
+        <div class="header-container">
+            <h1>
+                Potencializa tu negocio digital con Landing Pages generadas
+                con <strong>Inteligencia Artificial</strong>
+            </h1>
+            <div class="index-contacto">
+                <nav>
+                    <ul>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <main id="sobre-mi">
-        <h2>
-            Convierte visitantes en clientes con tecnología inteligente
-        </h2>
-        <p>
-            ¡Hola! Soy Bibiana Trujillo, desarrolladora Front-end con especialización
-            en Landing Pages con JavaScript, HTML y CSS. Ayudo a pequeños negocios y
-            diseñadores a tener landing pages optimizadas con Inteligencia Artificial
-            para maximizar conversiones y automatizar procesos. ¿Hablamos?
-        </p>
-        <a href="https://www.instagram.com/bibitru/#">Instagram</a>
-        <a href="https://github.com/BibiTC">Github</a>
-        <img src="img/FotoPerfil-P.png" alt="Imagen de Bibiana Trujillo Trabajando">
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Texto -->
+            <div class="texto">
+
+                <h2>
+                    Convierte visitantes en clientes con 
+                    <strong>tecnología inteligente
+                    </strong>
+                </h2>
+                <p>
+                    ¡Hola! Soy Bibiana Trujillo, desarrolladora Front-end con especialización
+                    en Landing Pages con JavaScript, HTML y CSS. Ayudo a pequeños negocios  y
+                    diseñadores a tener landing pages optimizadas con Inteligencia Artificial
+                    para maximizar conversiones y automatizar procesos. 
+                    ¿Hablamos?
+                </p>
+
+                <!-- Botones -->
+                <div class="boton-container">
+                    <a href="https://www.instagram.com/bibitru/#" target="_blank">Instagram</a> 
+                    <a href="https://github.com/BibiTC" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="imagen">
+                <img src="img/FotoPerfil-P.png" alt="Imagen de Bibiana Trujillo Trabajando">
+            </div>        
+        </div>
     </main>
     <footer id="contacto">
-        <p>Contacto: <a href="mailto:hola@conectartedesign.com">hola@conectartedesign.com</a></p>
-        <p>&copy; 2025 Bibiana Trujillo - Todos los derechos reservados</p>
+        <div class="footer-container">
+            <div class="contacto-email">
+                <p>Contacto: <a href="mailto:hola@conectartedesign.com" target="_blank">hola@conectartedesign.com</a></p>
+            </div>
+            <p>&copy; 2025 Bibiana Trujillo - Todos los derechos reservados</p>
+        </div>
     </footer>
 </body>
 
