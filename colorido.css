@@ -1,0 +1,28 @@
+/* Colorido y Divertido */
+
+body.colorido {
+    background: linear-gradient(45deg, #ff6b6b, #f7d794);
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+h1.colorido {
+    font-size: 3em;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button.colorido {
+    background-color: #ff4757;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.colorido:hover {
+    background-color: #ff6b81;
+}

@@ -1,0 +1,32 @@
+/* Minimalista y Limpio */
+
+body.minimalista {
+    background-color: #ffffff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1.minimalista {
+    font-size: 2em;
+    font-weight: 300;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+button.minimalista {
+    background: none;
+    color: #222;
+    border: 1px solid #222;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.minimalista:hover {
+    background-color: #222;
+    color: white;
+}

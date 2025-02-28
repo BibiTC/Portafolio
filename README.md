@@ -94,6 +94,8 @@ Ahora, vayamos un poco más allá. Necesitas crear tres archivos CSS diferentes,
 - Otro con un estilo **colorido y divertido**.
 - Un tercero con un aspecto **minimalista y limpio**.
 
+
+
 ### 2.6 Personalizando enlaces
 
 La última tarea es estilizar los enlaces en la página. Deberás modificar la apariencia de los enlaces para que se destaquen del fondo y del texto. Utiliza propiedades CSS, como `color`, para personalizarlos, siguiendo las directrices del diseño proporcionado en Figma.
