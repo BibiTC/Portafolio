@@ -84,6 +84,8 @@ Te han desafiado a dar vida a una página web que actualmente solo tiene HTML. T
 
 Imagina que estás trabajando en un proyecto web y ha llegado el momento de darle vida a tu página con colores, formas y estilos. Tu tarea es crear un archivo CSS para estilizar una página HTML simple, que contiene un encabezado, un párrafo y un pie de página. Utiliza tu conocimiento para definir los colores del texto y del fondo.
 
+![alt text]({D8682677-304D-4B67-8888-D4CD8919B8D3}.png)
+
 ### 2.5 Aplicando estilos con CSS
 
 Ahora, vayamos un poco más allá. Necesitas crear tres archivos CSS diferentes, cada uno con un estilo único, para el mismo archivo HTML. Esto demostrará cómo el CSS puede cambiar drásticamente la apariencia de una página sin alterar el HTML.
