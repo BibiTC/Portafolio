@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: #000;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     display: flex;    /*Flexbox Centra todo el contenido.*/
     flex-direction: column;    /* Asegura que los elementos estén en columna */
@@ -47,7 +47,7 @@ h1 {
 }
 
 h1 strong {
-    color: #22D4FD;    /* Azul llamativo */
+    color: #00c3ff;    /* Azul llamativo */
 }
 
 h2 {
@@ -70,8 +70,8 @@ p {
 
 a {
     text-decoration: none;
-    background-color: #00c3ff;    /*Fondo azul brillante en los botones.*/
-    color: #000;    /*Texto negro en los botones para contrastar.*/
+    background-color: #cc2f2fde;    /*Fondo azul brillante en los botones.*/
+    color: hsla(181, 68%, 75%, 0.797);    /*Texto negro en los botones para contrastar.*/
     padding: 10px 20px;
     border-radius: 8px;    /*Bordes redondeados.*/
     font-weight: bold;
@@ -81,7 +81,8 @@ a {
 
 /*Cambia el color del botón a un azul más oscuro (#009dcf) cuando el usuario pasa el mouse.*/
 a:hover {
-    background-color: #009dcf;
+    background-color: #3a35cf; /* Un tono más oscuro */
+    text-decoration: underline;
 }
 
 /* Imagen */
@@ -159,7 +160,7 @@ img {
 
 .index-contacto nav ul li a {
     text-decoration: none;
-    color: #22D4FD; /* Color llamativo */
+    color: #00c3ff; /* Color llamativo */
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 6px;
@@ -167,7 +168,7 @@ img {
 }
 
 .index-contacto nav ul li a:hover {
-    background-color: #22D4FD; /* Color al pasar el mouse */
+    background-color: #009dcf; /* Color al pasar el mouse */
     color: white;
 }
 
@@ -181,7 +182,7 @@ img {
 .contacto-email a {
     display: inline-block; /* Permite que el enlace respete el centrado */
     background: none; /* Elimina el fondo azul */
-    color: #22D4FD; /* Mantiene el color llamativo */
+    color: #00c3ff; /* Mantiene el color llamativo */
     font-weight: bold;
     text-decoration: underline; /* Agrega subrayado */
     padding: 0; /* Quita el padding del botón */
@@ -190,5 +191,5 @@ img {
 }
 
 .contacto-email a:hover {
-    color: #009dcf; /* Cambio de color al pasar el mouse */
+    color: #bed811;  /*Cambio de color al pasar el mouse */
 }

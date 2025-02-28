@@ -156,3 +156,69 @@ Editar
 
 La última tarea es estilizar los enlaces en la página. Deberás modificar la apariencia de los enlaces para que se destaquen del fondo y del texto. Utiliza propiedades CSS, como `color`, para personalizarlos, siguiendo las directrices del diseño proporcionado en Figma.
 
+------------------
+Cambia el color:
+Usa la propiedad color para que los enlaces contrasten con el fondo.
+
+css
+Copiar
+Editar
+a {
+    color: #ff5733; /* Un color llamativo */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    font-weight: bold; /* Hace el texto más grueso */
+}
+Efecto al pasar el mouse (hover)
+Cambia el color o agrega un subrayado cuando el usuario pase el cursor sobre el enlace.
+
+css
+Copiar
+Editar
+a:hover {
+    color: #c70039; /* Un tono más oscuro */
+    text-decoration: underline;
+}
+Efecto al hacer clic (active)
+Puedes cambiar el color cuando el usuario haga clic.
+
+css
+Copiar
+Editar
+a:active {
+    color: #900c3f;
+}
+Diferenciar enlaces visitados (visited)
+Si quieres que los enlaces ya visitados tengan un color diferente, usa visited.
+
+css
+Copiar
+Editar
+a:visited {
+    color: #6c3483; /* Un morado sutil */
+}
+Botones estilizados como enlaces
+Si los enlaces son botones, puedes darles más estilo con padding, border-radius, y background-color.
+
+css
+Copiar
+Editar
+.boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00c3ff;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.boton-enlace:hover {
+    background-color: #009dcf;
+-----------------
+
+![alt text]({3C431340-6815-41C1-9D31-DCE98D187087}.png)
+
+![alt text]({2A4B41DE-BE31-43EB-B87B-272BFA7FEED6}.png)
+
+![alt text]({C108DB51-E909-401B-88FA-3A6F45FCFD2C}.png)
+
