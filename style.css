@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #000000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     display: flex;   /*Flexbox Centra todo el contenido.*/
     justify-content: center;  /*Centra horizontalmente. */
@@ -28,11 +28,11 @@ h1 {
     font-weight: 700; /* Negrita */
     font-size: 1.5rem;  /*Hace el título más grande.*/
     font-weight: bold;   /*Hace que el texto sea grueso.*/
-text-align: left;  /* Asegura que el título esté alineado a la izquierda */
+    text-align: left;  /* Asegura que el título esté alineado a la izquierda */
 }
 
 h1 strong {
-    color: #00c3ff; /* Azul llamativo */
+    color: #22D4FD; /* Azul llamativo */
 }
 
 /* Párrafo */
@@ -49,8 +49,8 @@ p {
 
 a {
     text-decoration: none;
-    background-color: #00c3ff; /*Fondo azul brillante en los botones.*/
-    color: #000; /*Texto negro en los botones para contrastar.*/
+    background-color: #22D4FD; /*Fondo azul brillante en los botones.*/
+    color: #000000; /*Texto negro en los botones para contrastar.*/
     padding: 10px 20px;
     border-radius: 8px; /*Bordes redondeados.*/
     font-weight: bold;
@@ -60,7 +60,7 @@ a {
 
 /*Cambia el color del botón a un azul más oscuro (#009dcf) cuando el usuario pasa el mouse.*/
 a:hover {
-    background-color: #009dcf;
+    background-color: #22D4FD;
 }
 
 /* Imagen */
@@ -82,7 +82,7 @@ img {
     left: -10px;  /*Mueve el borde un poco hacia arriba e izquierda.*/
     width: 100%;
     height: 100%;
-    border: 2px solid #00c3ff; /*Crea un marco azul (#00c3ff).*/
+    border: 2px solid #22D4FD; /*Crea un marco azul (#00c3ff).*/
     border-radius: 12px; /*Hace que el borde sea ligeramente redondeado.*/
 }
 
