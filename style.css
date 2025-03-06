@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;  /*Permite que la imagen y el texto estén lado a lado.*/
     align-items: center;  /*Alinea los elementos verticalmente.*/
-    max-width: 800px;  /*Limita el ancho del contenido para que no sea demasiado grande en pantallas grandes.*/
+    max-width: 850px;  /*Limita el ancho del contenido para que no sea demasiado grande en pantallas grandes.*/
     margin: auto;
 }
 
