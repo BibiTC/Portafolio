@@ -4,6 +4,8 @@
 }
 
 body{
+    height: 100vh; /*asociado a la meta name viewport en HTML head, que es la visualizacion de la pagina h=altura  100% de la altura*/
+    box-sizing:boder-box; /*Para que los hijos no salgan de la caja del padre*/
     background-color:  #000000;
     color: #f6f6f6;
 }
@@ -12,3 +14,8 @@ body{
     color: #22D4FD;    
 }
 
+.presentacion {
+    display: flex;
+    align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
+}
+ 
