@@ -20,14 +20,16 @@ body{
 .presentacion {
     display: flex;
     align-items: center; /*stretch | flex-start (por defecto) | flex-end | center(centralizar) | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
-    margin: 10%;
+    margin: 10% 15%;
     justify-content: space-between ;
     /*flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;*/
 }
 
 .presentacion__contenido {
     width: 615px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .presentacion__contenido__titulo{
