@@ -8,13 +8,13 @@
 
 body{
     height: 100vh; /*asociado a la meta name viewport en HTML head, que es la visualizacion de la pagina h=altura  100% de la altura*/
-    box-sizing:boder-box; /*Para que los hijos no salgan de la caja del padre*/
-    background-color:  #000000;
+    box-sizing:border-box; /*Para que los hijos no salgan de la caja del padre*/
+    background-color: #000000;
     color: #f6f6f6;
 }
 
 .titulo-destaque {
-    color: #22D4FD;    
+    color: #22D4FD;  
 }
 
 .presentacion {
@@ -42,7 +42,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.presentacion__contenido__enlaces {
+.presentacion__enlaces {
     display: flex;
     justify-content: space-between;
 }
